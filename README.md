@@ -5,6 +5,8 @@ Computationally fast implementation of calculating area under ROC and PR curves
 Requires: SortingAlgorithms
 
 ```
+julia> using FastAUC
+
 julia> typeof(y_pred)
 Array{Float64,1}
 
