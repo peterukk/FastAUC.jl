@@ -1,7 +1,8 @@
 module FastAUC
-	export auc_PR,auc_ROC
 
+    export auc_PR,auc_ROC
+    
     using SortingAlgorithms
-
-	include("functions.jl")
+    include("functions.jl")
+    
 end
